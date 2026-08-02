@@ -8,8 +8,10 @@ dist/
 build/
 node_modules/
 .DS_Store
+
 AGENTS.md
+
 agents.md
 problem_statement.md
-problemstatement.md
+
 
