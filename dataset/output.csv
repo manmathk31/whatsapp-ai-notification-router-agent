@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,,,,,
-msg_091,,,,,
-msg_090,,,,,
-msg_048,,,,,
-msg_040,,,,,
-msg_075,,,,,
-msg_005,,,,,
-msg_104,,,,,
-msg_069,,,,,
-msg_107,,,,,
-msg_070,,,,,
-msg_003,,,,,
-msg_099,,,,,
-msg_008,,,,,
-msg_092,,,,,
-msg_060,,,,,
-msg_004,,,,,
-msg_030,,,,,
-msg_045,,,,,
-msg_052,,,,,
-msg_009,,,,,
-msg_071,,,,,
-msg_016,,,,,
-msg_065,,,,,
-msg_038,,,,,
-msg_086,,,,,
-msg_014,,,,,
-msg_094,,,,,
-msg_029,,,,,
-msg_105,,,,,
-msg_002,,,,,
-msg_010,,,,,
-msg_078,,,,,
-msg_013,,,,,
-msg_018,,,,,
-msg_044,,,,,
-msg_032,,,,,
-msg_106,,,,,
-msg_006,,,,,
-msg_109,,,,,
-msg_108,,,,,
-msg_019,,,,,
-msg_088,,,,,
-msg_056,,,,,
-msg_027,,,,,
-msg_050,,,,,
-msg_083,,,,,
-msg_063,,,,,
-msg_033,,,,,
-msg_061,,,,,
-msg_020,,,,,
-msg_017,,,,,
-msg_058,,,,,
-msg_026,,,,,
-msg_047,,,,,
-msg_046,,,,,
-msg_042,,,,,
-msg_079,,,,,
-msg_098,,,,,
-msg_037,,,,,
-msg_007,,,,,
-msg_085,,,,,
-msg_001,,,,,
-msg_021,,,,,
-msg_028,,,,,
-msg_012,,,,,
-msg_064,,,,,
-msg_103,,,,,
-msg_031,,,,,
-msg_057,,,,,
-msg_087,,,,,
-msg_067,,,,,
-msg_039,,,,,
-msg_082,,,,,
-msg_066,,,,,
-msg_049,,,,,
-msg_015,,,,,
-msg_051,,,,,
-msg_097,,,,,
-msg_089,,,,,
-msg_053,,,,,
-msg_059,,,,,
-msg_024,,,,,
-msg_072,,,,,
-msg_036,,,,,
-msg_076,,,,,
-msg_055,,,,,
-msg_102,,,,,
-msg_080,,,,,
-msg_093,,,,,
-msg_034,,,,,
-msg_035,,,,,
-msg_101,,,,,
-msg_041,,,,,
-msg_011,,,,,
-msg_110,,,,,
-msg_095,,,,,
-msg_074,,,,,
-msg_073,,,,,
-msg_054,,,,,
-msg_068,,,,,
-msg_100,,,,,
-msg_062,,,,,
-msg_096,,,,,
-msg_043,,,,,
-msg_077,,,,,
-msg_081,,,,,
-msg_025,,,,,
-msg_084,,,,,
-msg_022,,,,,
+msg_023,digest,business_update,Business notification regarding payment update from an unknown sender with a history of user ignoring similar messages.,0.81,message_0243;message_0102;message_0101
+msg_091,mute,scam,Suspicious request for credentials/OTP with fake urgency from an unverified sender.,0.83,none
+msg_090,digest,personal,"Low-urgency personal message from an unknown sender regarding a package mix-up, suitable for later reading.",0.85,none
+msg_048,notify,urgent,Time-sensitive update from a recognized group admin.,0.87,none
+msg_040,mute,forward,Highly forwarded chain message exhibiting typical spam or blessing patterns.,0.83,none
+msg_075,digest,business_update,"Business update regarding a ride status, but the user is opted out and historically ignores similar messages, making it suitable for digest.",0.85,message_0206;message_0205
+msg_005,notify,event,Time-sensitive pickup request for a held item from a trusted sender with a strict 6 PM deadline.,0.88,none
+msg_104,notify,personal,Time-sensitive personal message from a trusted sender regarding a physical item pickup with a strict deadline.,0.85,message_0232;message_0050;message_0335
+msg_069,digest,forward,"Routine family good morning forward requesting mass sharing, which the user historically ignores.",0.85,message_0080;message_0177;message_0194
+msg_107,mute,scam,Detected adversarial prompt injection attempt in message content.,0.95,none
+msg_070,mute,scam,"The message requests an OTP verification via a suspicious link with fake urgency, indicating a credential harvesting scam despite sender trust.",0.94,message_0213;message_0196;message_0174
+msg_003,digest,business_update,"Routine order update from a business where the user is opted out and historically ignores similar messages, making it suitable for digest.",0.85,message_0400;message_0031;message_0267
+msg_099,digest,personal,"Non-urgent personal message about work notes with no immediate deadline, suitable for later reading.",0.85,message_0118;message_0055;message_0227
+msg_008,digest,promotion,"Post-purchase review request from a business; historical evidence shows the user typically ignores such feedback prompts, making this suitable for digest.",0.85,message_0296;message_0071;message_0072
+msg_092,digest,business_update,"Routine monthly card statement notification from a business, suitable for later review as user fatigue is low and it is not urgent.",0.85,none
+msg_060,notify,urgent,Time-sensitive update from a recognized group admin.,0.87,none
+msg_004,digest,business_update,Business update from an un-trusted sender whose past similar messages were ignored by the user.,0.85,message_0245;message_0005;message_0064
+msg_030,digest,promotion,"Marketplace item listing in a group chat, which the user historically ignores based on past engagement patterns.",0.85,message_0115;message_0232;message_0050
+msg_045,notify,urgent,Time-sensitive delivery update requiring immediate user confirmation at the gate within 10 minutes.,0.88,none
+msg_052,mute,scam,High risk: Unverified business using a mismatched domain with a high report count.,0.85,none
+msg_009,digest,personal,"Casual group chat check-in regarding sports, which the user historically ignores or catches up on later.",0.85,message_0074;message_0073
+msg_071,digest,personal,"Casual family check-in about vague plans with no immediate urgency, suitable for later reading based on past patterns.",0.85,message_0197;message_0198
+msg_016,mute,scam,"The message exhibits phishing characteristics with fake urgency regarding an account block and a suspicious link, despite being from a trusted group sender. Historical pattern indicates similar alerts are ignored.",0.91,message_0202;message_0184;message_0201
+msg_065,digest,promotion,"Promotional business update with low urgency, and historical evidence shows the user typically ignores such messages.",0.85,message_0261;message_0185;message_0186
+msg_038,mute,forward,Highly forwarded chain message exhibiting typical spam or blessing patterns.,0.83,none
+msg_086,digest,business_update,"Routine business message from a historically ignored sender, suitable for digest reading.",0.81,message_0222
+msg_014,digest,promotion,"Promotional message from an unknown business where the user is opted-out and historically ignores similar messages, suitable for digest review.",0.85,message_0258;message_0018;message_0017
+msg_094,digest,promotion,"Unsolicited promotional offer from an unknown business with low user engagement history, suitable for later reading.",0.85,none
+msg_029,digest,promotion,Marketplace listing from a group chat that is non-urgent and matches past behavior where user ignores similar marketplace posts.,0.85,message_0113;message_0231;message_0049
+msg_105,mute,forward,Highly forwarded chain message exhibiting typical spam or blessing patterns.,0.83,none
+msg_002,notify,personal,Direct mention requiring immediate user attention or action.,0.85,none
+msg_010,digest,promotion,Feedback request from a business where the user is opted out and historically ignores similar messages.,0.85,message_0011;message_0242;message_0075
+msg_078,mute,scam,Suspicious request for sensitive bank details and urgent document completion from a marketplace group sender.,0.92,message_0211;message_0212
+msg_013,digest,promotion,"Promotional offer posted in a college faculty group which is not urgent and can be reviewed later, consistent with user's past behavior of ignoring similar group items.",0.85,message_0081;message_0082
+msg_018,digest,promotion,"Marketplace reward notification from a known sender, but similar past messages were ignored, making it suitable for digest instead of immediate notification.",0.84,message_0092;message_0091
+msg_044,mute,scam,Suspicious request for credentials/OTP with fake urgency from an unverified sender.,0.83,none
+msg_032,digest,event,"Non-urgent study material request in a college group chat, which the user historically ignores.",0.85,message_0120;message_0374;message_0119
+msg_106,digest,event,"Time-sensitive location change for dance practice, but user historical reaction pattern to this sender's coordination is low/ignored, making digest appropriate.",0.84,message_0376;message_0234;message_0377
+msg_006,notify,urgent,Time-sensitive update from a recognized group admin.,0.87,none
+msg_109,mute,scam,Detected adversarial prompt injection attempt in message content.,0.95,none
+msg_108,mute,scam,Detected adversarial prompt injection attempt in message content.,0.95,none
+msg_019,mute,scam,High risk: Unverified business using a mismatched domain with a high report count.,0.85,none
+msg_088,digest,event,"Marketplace group message with low user engagement and historical ignore pattern, suitable for digest review later.",0.82,message_0232;message_0050;message_0335
+msg_056,notify,personal,Direct mention requiring immediate user attention or action.,0.85,none
+msg_027,digest,promotion,"Promotional message from a business, matching previous patterns where the user ignores similar marketing updates.",0.85,message_0272;message_0033;message_0007
+msg_050,digest,business_update,"Business notification from an opted-out sender which the user historically ignores, best suited for later reading.",0.85,message_0279;message_0155;message_0156
+msg_083,digest,business_update,"Coworker group message with no direct mention, sent by an admin, but historically ignored by the user, making it suitable for digest.",0.81,message_0219
+msg_063,mute,spam,"Suspicious urgent payment request from a local food group sender asking for direct QR code transfers, which aligns with historically ignored low-value messages.",0.88,message_0181;message_0182
+msg_033,digest,greeting,"Casual family check-in with low urgency, intended for reading later despite high sender trust.",0.84,message_0393;message_0372;message_0121
+msg_061,digest,forward,"Chain forward message from a trusted family sender, which the user historically ignores or reads later without needing immediate interruption.",0.85,message_0080;message_0177;message_0194
+msg_020,mute,scam,"The message contains a suspicious shortlink requesting account verification from an untrusted context, matching historical ignored spam patterns.",0.92,message_0095;message_0096
+msg_017,digest,business_update,Routine payment or clearance notification in a marketplace group with low user engagement and historical ignore patterns.,0.82,message_0090;message_0089
+msg_058,mute,forward,Highly forwarded chain message exhibiting typical spam or blessing patterns.,0.83,none
+msg_026,mute,scam,High risk: Unverified business using a mismatched domain with a high report count.,0.85,none
+msg_047,notify,urgent,Time-sensitive update from a recognized group admin.,0.87,none
+msg_046,mute,scam,Suspicious request for credentials/OTP with fake urgency from an unverified sender.,0.83,none
+msg_042,notify,urgent,Time-sensitive update from a recognized group admin.,0.87,none
+msg_079,mute,scam,"The message demands immediate OTP sharing and threatens account blocking, which are hallmark tactics of credential phishing.",0.94,message_0213;message_0196;message_0174
+msg_098,notify,urgent,Urgent time-sensitive decision regarding a medical appointment from a trusted sender.,0.88,message_0359;message_0168;message_0226
+msg_037,notify,urgent,Time-sensitive water tanker update from society admin requiring immediate action despite past ignore history for general updates.,0.88,message_0029;message_0129;message_0215
+msg_007,digest,event,"Non-urgent society event update from an admin where responses are explicitly requested not to be in the thread, aligning with historical ignore patterns.",0.86,message_0070;message_0069
+msg_085,mute,scam,High risk: Unverified business using a mismatched domain with a high report count.,0.85,none
+msg_001,notify,urgent,Time-sensitive update from a recognized group admin.,0.87,none
+msg_021,notify,urgent,Time-sensitive update from a recognized group admin.,0.87,none
+msg_028,mute,promotion,The user explicitly opted out of promotional messages from this business.,0.9,none
+msg_012,mute,forward,Highly forwarded chain message exhibiting typical spam or blessing patterns.,0.83,none
+msg_064,digest,payment,"Marketplace refund notification involving account details, but the user has historically ignored similar non-urgent notifications, making digest appropriate.",0.84,message_0202;message_0184;message_0201
+msg_103,notify,personal,Time-sensitive personal message from a trusted sender regarding holding an item with a specific deadline.,0.88,none
+msg_031,digest,business_update,"Work-related reminder about an evening sync from a group admin, categorized as non-urgent digest despite past ignored history since it involves operational prep.",0.81,message_0118;message_0055;message_0227
+msg_057,notify,personal,Direct mention requiring immediate user attention or action.,0.85,none
+msg_087,digest,event,"Message from a trusted group sender in a real estate context, but the user historically ignores similar messages, making it suitable for a digest.",0.85,message_0391;message_0223;message_0164
+msg_067,digest,event,"Routine maintenance payment reminder from a society group, safe but not urgent enough to interrupt immediately, matching past ignore patterns for general society updates.",0.85,message_0029;message_0129;message_0215
+msg_039,notify,urgent,Time-sensitive update from a recognized group admin.,0.87,none
+msg_082,digest,business_update,"Group message from a coworker sender categorized as a routine update, historically ignored by the user.",0.85,message_0218;message_0380;message_0397
+msg_066,mute,promotion,The user explicitly opted out of promotional messages from this business.,0.9,none
+msg_049,digest,business_update,"A logistical update from a business regarding a delivery pickup, informative and safe, but not requiring immediate interruption based on user engagement patterns.",0.85,message_0153;message_0291;message_0154
+msg_015,mute,scam,Suspicious request for credentials/OTP with fake urgency from an unverified sender.,0.83,none
+msg_051,mute,promotion,The user explicitly opted out of promotional messages from this business.,0.9,none
+msg_097,digest,personal,"Personal message indicating nothing urgent and that the sender is busy, allowing it to be read later based on historical user reaction patterns.",0.85,message_0359;message_0168;message_0226
+msg_089,notify,event,Time-sensitive alert regarding a lost personal item with a strict pickup deadline today.,0.88,none
+msg_053,digest,business_update,"Informational market note from a known sender in an investment group. User historically ignores similar research updates during trading hours, making it suitable for a digest.",0.86,message_0253;message_0161;message_0162
+msg_059,mute,scam,"The message asks for sensitive account details with a false sense of urgency, matching phishing patterns, and the user historically ignores similar messages.",0.92,message_0213;message_0196;message_0174
+msg_024,mute,promotion,The user explicitly opted out of promotional messages from this business.,0.9,none
+msg_072,mute,scam,"Suspicious message demanding OTP and credential verification via an unverified external link with fake urgency, matching ignored historical patterns.",0.92,message_0199;message_0200;message_0085
+msg_036,mute,scam,High risk: Unverified business using a mismatched domain with a high report count.,0.85,none
+msg_076,mute,scam,High risk: Unverified business using a mismatched domain with a high report count.,0.85,none
+msg_055,notify,urgent,Time-sensitive personal request from a known family member requiring an immediate decision.,0.85,message_0166;message_0387;message_0165
+msg_102,notify,urgent,Important production deployment update from a trusted sender requiring monitoring attention.,0.88,none
+msg_080,notify,urgent,"Time-sensitive society gate update from a trusted admin regarding moving cars, requiring immediate interruption to avoid towing.",0.88,none
+msg_093,digest,business_update,"Logistics delivery notification with low trust sender and no prior history, appropriate for digest review rather than immediate interruption.",0.81,none
+msg_034,mute,forward,Highly forwarded chain message exhibiting typical spam or blessing patterns.,0.83,none
+msg_035,digest,promotion,"B2B promotional message from a business the user has historically ignored, suitable for delayed reading without immediate interruption.",0.85,message_0281;message_0125;message_0126
+msg_101,digest,personal,"Personal check-in from a known sender with explicit instruction that no reply is needed, making it suitable for digest reading.",0.85,message_0268;message_0370;message_0229
+msg_041,digest,business_update,"The message is a survey request from an unknown business sender. Based on historical reaction patterns where the user ignored similar past survey messages, this is suitable for later reading.",0.84,message_0138;message_0137
+msg_011,digest,forward,"Harmless family forward with positive greetings; user historically ignores these, so it should go to digest rather than notifying.",0.88,message_0123;message_0241;message_0078
+msg_110,mute,scam,Detected adversarial prompt injection attempt in message content.,0.95,none
+msg_095,mute,scam,Detected adversarial prompt injection attempt in message content.,0.95,none
+msg_074,digest,promotion,"Real estate promotion message sent to a group chat, which the user historically ignores based on past engagement patterns.",0.85,message_0223;message_0164;message_0163
+msg_073,digest,promotion,"Routine marketplace security reminder from a sender in a marketplace group, historically ignored by the user.",0.81,message_0202;message_0184;message_0201
+msg_054,mute,scam,"Unsolicited loan approval message requesting a processing fee, which exhibits classic scam patterns. The user historically ignores such messages.",0.91,message_0223;message_0164;message_0163
+msg_068,digest,event,"Casual group planning message about a post-match discussion with no immediate urgency, matching historical ignored group chatter.",0.85,message_0191;message_0192
+msg_100,notify,urgent,Time-sensitive escalation alert from a trusted sender regarding system payment failures and impending client escalation.,0.88,none
+msg_062,digest,event,"Routine informational update about a scheduled building test from a society admin, suitable for delayed review despite past ignoral patterns.",0.82,message_0043;message_0029;message_0129
+msg_096,notify,personal,"Important notification from someone claiming to be at the building reception regarding a lost passport, requiring time-sensitive attention before 18h.",0.88,none
+msg_043,notify,urgent,Time-sensitive update from a recognized group admin.,0.87,none
+msg_077,digest,event,"Informational school circular with instructions regarding a field trip from a trusted school group admin, appropriate for later reading.",0.85,message_0403;message_0209;message_0133
+msg_081,digest,event,"School group admin message with no direct mention; user historically ignores similar updates, making it suitable for digest.",0.85,message_0217
+msg_025,digest,business_update,Business order update from an unverified sender with whom the user is opted out and historically ignores similar messages.,0.85,message_0239;message_0004;message_0105
+msg_084,mute,promotion,The user is opted out of business communications and has historically ignored similar messages.,0.89,message_0220
+msg_022,digest,payment,Routine payment reminder in a society group where the user historically ignores similar messages.,0.81,message_0099;message_0100
