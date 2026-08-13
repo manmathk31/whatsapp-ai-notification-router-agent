@@ -1,4 +1,4 @@
-# 📱 WhatsApp Message Notification Router (AI Orchestrator)
+# WhatsApp Message Notification Router (AI Orchestrator)
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Google Gemini API](https://img.shields.io/badge/Google%20Gemini-Multimodal%20LLM-4285F4.svg?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
