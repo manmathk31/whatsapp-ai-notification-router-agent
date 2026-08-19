@@ -180,7 +180,3 @@ message_id,action,message_type,reason,confidence,evidence_message_ids
 - **`evidence_message_ids`**: Referenced historical `message_id`s or `none`.
 
 ---
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
